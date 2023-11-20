@@ -857,9 +857,14 @@ input, select, textarea {
   	position:inherit;
   	bottom: -1px;
   	left: 50%;
-  	transform: translateX(-43%);
-  	display:block;
+  	transform: translateX(-50%);
+  	display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content:center;
+		align-items:center;
 	}
+
 /* Dot postion*/
 	.dot {
   	height: 15px;
